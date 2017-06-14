@@ -1,5 +1,6 @@
 package com.example.demo;
 
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
@@ -7,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @author Kengo Kuwahara
  *
  */
+@Controller
 @RequestMapping("/")
 public class PageController {
 
@@ -41,9 +43,9 @@ public class PageController {
 	 * 渕本の自己紹介ページへ遷移.
 	 * @return
 	 */
-	@RequestMapping("/hutimoto")
+	@RequestMapping("/fuchimoto")
 	public String hutimoto(){
-		return "hutimoto";
+		return "fuchimoto";
 	}
 	
 }
