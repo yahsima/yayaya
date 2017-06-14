@@ -4,10 +4,24 @@
 <html lang="ja">
 	<head>
 	<meta charset="UTF-8">
-	<title>Insert title here</title>
+	<title>自己紹介　とっぷぺーじ</title>
 	</head>
-	<body>
-	
-	
-	</body>
+<body>
+
+<br><br>
+<a href="${pageContext.request.contextPath}/yashima">
+八島秀亨
+</a>
+
+<br><br>
+<a href="${pageContext.request.contextPath}/kuwahara">
+桑原健悟
+</a>
+
+<br><br>
+<a href="${pageContext.request.contextPath}/fuchimoto">
+渕本志織
+</a>
+
+</body>
 </html>
